@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+.container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    padding: 15px;
+}
+
+.container img {
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.container .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .items h2 {
+    padding-top: 15px;
+    /* font-weight: 400; */
+}
+
+.container .items span {
+    color: hsl(75, 94%, 57%);
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.container .items p {
+    font-size: 12px;
+    padding: 15px 0px 20px 0;
+    font-weight: 400;
+}
+
+.container .items .item {
+    width: 250px;
+    height: 45px;
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.container .items .item p{
+    font-weight: 700;
+}
